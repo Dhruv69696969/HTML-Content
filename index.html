@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Calculator</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div class="container">
+                <div id="display_div">
+                    <input type="text" id="display_field">
+                </div>
+                <div class="btn_div">
+                    <div class="numbers">
+                        <button class="num_btn" id="btn1" onclick="btn_click(1)"> 1 </button>
+                        <button class="num_btn" id="btn2" onclick="btn_click(2)"> 2 </button>
+                        <button class="num_btn" id="btn3" onclick="btn_click(3)"> 3 </button>
+                        <button class="num_btn" id="btn4" onclick="btn_click(4)"> 4 </button>
+                        <button class="num_btn" id="btn5" onclick="btn_click(5)"> 5 </button>
+                        <button class="num_btn" id="btn6" onclick="btn_click(6)"> 6 </button>
+                        <button class="num_btn" id="btn7" onclick="btn_click(7)"> 7 </button>
+                        <button class="num_btn" id="btn8" onclick="btn_click(8)"> 8 </button>
+                        <button class="num_btn" id="btn9" onclick="btn_click(9)"> 9 </button>
+                        <button class="num_btn" id="btn_dec" onclick="btn_click('.')"> . </button>
+                        <button class="num_btn" id="btn0" onclick="btn_click(0)"> 0 </button>
+                        <button class="num_btn" id="equals"> = </button>
+                    </div>
+                    <div class="controls">
+                        <button class="op_btn" id="mult" onclick="btn_click('x')> x </button>
+                        <button class="op_btn" id="div" onclick="btn_click('/')> / </button>
+                        <button class="op_btn" id="add" onclick="btn_click('+')> + </button>
+                        <button class="op_btn" id="sub" onclick="btn_click('-')> - </button>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <style>
+                .sky{
+                    width: 100%;
+                    height: 300px;
+                    background-color: skyblue;
+                    animation: sky 20s linear infinite;
+                }
+                .sea {
+                    width: 100%;
+                    height: 400px;
+                    background-color: blue;
+                }
+                .sun {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 40%;
+                    background-color: orange;
+                    animation: sunset 20s linear infinite;
+                }
+                @keyframes sunset{
+                    0%{
+                        top: 600px;
+                        background-color: orange;
+                    }
+                    50%{
+                        top: 0px;
+                        background-color: yellow;
+                    }
+                    100%{
+                        top: 600px;
+                        background-color: orange;
+                    }
+                }
+                @keyframes sky{
+                    0%{
+                        background-color: black;
+                    }
+                    25%{
+                        background-color: pink;
+                    }
+                    50%{
+                        background-color: skyblue;
+                    }
+                    75%{
+                        background-color: pink;
+                    }
+                    100%{
+                        background-color: black;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <div class="sky"></div>
+            <div class="sun"></div>
+            <div class="sea"></div>
+        </body>
+    </html>

@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #246464;
+}
+
+.container {
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#display_field{
+    width: 191px;
+    font-size: 30px;
+    font-weight: 700;
+    height: 75px;
+    margin-bottom: 5px;
+}
+.btn_div{
+    display: flex;
+}
+
+.numbers {
+    max-width: 156px !important;
+}
+
+.num_btn, .op_btn {
+    width: 47px;
+    height: 47px;
+    font-size: 30px;
+}
+
+
+.num_btn:hover {
+    background-color: orange;
+    font-size: 30px;
+    border: 5px dotted black;
+}
+
+.controls {
+    max-width: 47px;
+    margin-left: -4px;
+}
+.op_btn:hover {
+    background-color: orange;
+    font-size: 30px;
+    border: 5px dotted black;
+}
